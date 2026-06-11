@@ -19,16 +19,6 @@
 * aiogram 3
 * python-dotenv
 
-## Установка
-
-```bash
-git clone <ссылка_на_репозиторий>
-cd tgbot
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
 ## Настройка
 
 Создайте файл `.env` или передайте переменные окружения:
@@ -38,13 +28,20 @@ TOKEN=ваш_токен_бота
 ADMIN_CHAT_ID=ваш_telegram_id
 ```
 
-Токен можно получить у BotFather в Telegram.
-
-## Запуск
+## Установка и запуск
 
 ```bash
+git clone [<ссылка_на_репозиторий>](https://github.com/SFsolovev/chatbot_HW)
+cd tgbot
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install aiogram python-dotenv
 python bot.py
 ```
+
+## Проверка работы
+t.me/MoscowZoo_HW_bot
 
 ## Структура проекта
 
@@ -55,7 +52,3 @@ tgbot/
 ├── requirements.txt
 └── README.md
 ```
-
-## Примечание
-
-Большие панды не используются в викторине, так как их нельзя взять под опеку.
