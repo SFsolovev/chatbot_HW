@@ -50,5 +50,5 @@ tgbot/
 ├── bot.py
 ├── config.py
 ├── requirements.txt
-└── README.md
+README.md
 ```
