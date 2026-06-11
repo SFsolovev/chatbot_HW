@@ -49,6 +49,6 @@ t.me/MoscowZoo_HW_bot
 tgbot/
 ├── bot.py
 ├── config.py
-├── requirements.txt
+└── requirements.txt
 README.md
 ```
