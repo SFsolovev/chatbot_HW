@@ -31,7 +31,7 @@ ADMIN_CHAT_ID=ваш_telegram_id
 ## Установка и запуск
 
 ```bash
-git clone [<ссылка_на_репозиторий>](https://github.com/SFsolovev/chatbot_HW)
+git clone https://github.com/SFsolovev/chatbot_HW
 cd tgbot
 python3 -m venv venv
 source venv/bin/activate
